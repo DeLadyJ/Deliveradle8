@@ -4,17 +4,24 @@
         <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css" / >
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="bg-black h-screen w-screen grid grid-col">        
-        <nav class="bg-white rounded-full h-16 w-full mt-24">
-            <div class="grid-col-4 divide-x">
-                <div>Location</div>
-                <div>Check-in</div>
-                <div>Check-out</div>
-                <div>Guests</div>
-            </div>
+    <body class="bg-black h-screen w-screen grid grid-col">
+        <div>
+            <ul class="menu menu-horizontal text-white content-center mt-4">
+                <li><a>Places to stay</a></li>
+                <li><a>Experiences</a></li>
+                <li><a>Online experiences</a></li>
+            </ul>
+        </div>       
+        <nav class="bg-white rounded-full h-16 w-3/5 -mt-12 ml-72 -mb-12">
+            <ul class="menu menu-horizontal">
+                <li><a>Locatio</a></li>
+                <li><a>Check-in</a></li>
+                <li><a>Check-out</a></li>
+                <li><a>Guests</a></li>
+              </ul>
         </nav>        
-        <div class="bg-red-500 h-80 w-11/12 m-16 rounded-lg grid justify-items-center">
-            <p class="text-white text-4xl mt-32">Help house 100,000 refugees fleeing Ukraine</p>
+        <div class="bg-red-500 h-96 w-11/12 m-16 rounded-lg grid justify-items-center">
+            <p class="text-white text-5xl mt-32">Help house 100,000 refugees fleeing Ukraine</p>
             <button class="text-white text-xl border border-white w-32 h-12 rounded-lg -m-16">Learn more</button>
         </div>
     </body>
